@@ -1,4 +1,6 @@
 public class Empleado {
+    private string nombre;
+    private  double salarioBase;
     public string getNombre() {
         return nombre;
     }
@@ -15,8 +17,6 @@ public class Empleado {
         this.salarioBase = salarioBase;
     }
 
-    private string nombre;
-    private  double salarioBase;
 
     public double calcularSalario() {
         return salarioBase;
