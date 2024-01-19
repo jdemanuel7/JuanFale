@@ -18,9 +18,15 @@ public class Empleado {
     private string nombre;
     private  double salarioBase;
 
-    public static  calcularSalario{
-
+    public double calcularSalario() {
+        return salarioBase;
     }
+    public string getNombre() {
+        return nombre;
+    }
+}
+
+
 
 
 
