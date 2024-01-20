@@ -2,13 +2,13 @@ public class Empleado {
     private string nombre;
     private double salarioBase;
 
-    // Constructor que recibe nombre y salario base
+    // Constructor que da el salario y nombre
     public Empleado(string nombre, double salarioBase) {
         this.nombre = nombre;
         this.salarioBase = salarioBase;
     }
 
-    // Método que devuelve el salario base
+    // Método que devuelve salario base
     public double calcularSalario() {
         return salarioBase;
     }
@@ -23,12 +23,11 @@ public class Empleado {
         this.nombre = nombre;
     }
 
-    // Getter para obtener el salario base del empleado
     public double getSalarioBase() {
         return salarioBase;
     }
 
-    // Setter para actualizar el salario base del empleado
+
     public void setSalarioBase(double salarioBase) {
         this.salarioBase = salarioBase;
     }
